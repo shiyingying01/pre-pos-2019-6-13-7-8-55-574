@@ -2,7 +2,8 @@
 
 function countSameElements(collection) {
   var obj = {};
-  var key, result = [];
+  var key =[];
+  var result = [];
   for (var i = 0; i < collection.length; i++) {
     key = collection[i];
     if(key.length>1){
